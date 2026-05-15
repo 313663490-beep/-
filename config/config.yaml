@@ -299,7 +299,8 @@ notification:
     feishu:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
-
+  dingding:
+    webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=3f6b56ce8c0e01832b6ae9601c9d6c699586b682559012435443fd613b6887d0" 
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
