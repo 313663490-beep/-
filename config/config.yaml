@@ -295,12 +295,13 @@ notification:
                                       #   true  → 由调度的 push 字段控制何时推送
 
   # 推送渠道配置
+  
   channels:
     feishu:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=3f6b56ce8c0e01832b6ae9601c9d6c699586b682559012435443fd613b6887d0"                 # 钉钉机器人 webhook URL
+      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=b67f573bf8812099f794eb7c1b66e89541d62f535c82c2fa4b96ad98cf48763f"                 # 钉钉机器人 webhook URL
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
