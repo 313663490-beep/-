@@ -296,43 +296,9 @@ notification:
 
   # 推送渠道配置
   channels:
-    feishu:
-      webhook_url: ""                 # 飞书机器人 webhook URL
-
   dingding:
     webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=3f6b56ce8c0e01832b6ae9601c9d6c699586b682559012435443fd613b6887d0" 
 
-    wework:
-      webhook_url: ""                 # 企业微信机器人 webhook URL
-      msg_type: "markdown"            # 消息类型：markdown(群机器人) | text(个人微信应用)
-
-    telegram:
-      bot_token: ""                   # Telegram Bot Token
-      chat_id: ""                     # Telegram Chat ID
-
-    email:
-      from: ""                        # 发件人邮箱地址
-      password: ""                    # 发件人邮箱密码或授权码
-      to: ""                          # 收件人邮箱，多个用逗号分隔
-      smtp_server: ""                 # SMTP 服务器（可选，留空自动识别）
-      smtp_port: ""                   # SMTP 端口（可选，留空自动识别）
-
-    ntfy:
-      server_url: "https://ntfy.sh"   # ntfy 服务器地址（可改为自托管）
-      topic: ""                       # ntfy 主题名称
-      token: ""                       # ntfy 访问令牌（可选，用于私有主题）
-
-    bark:
-      url: ""                         # Bark 推送 URL（格式：https://api.day.app/your_device_key）
-
-    slack:
-      webhook_url: ""                 # Slack Incoming Webhook URL
-
-    generic_webhook:
-      webhook_url: ""                 # 通用 Webhook URL（支持 Discord、Matrix、IFTTT 等）
-      payload_template: ""            # JSON 模板，支持 {title} 和 {content} 占位符
-                                      # 示例：{"content": "{content}"}
-                                      # 留空则使用默认格式：{"title": "{title}", "content": "{content}"}
 
 
 # ===============================================================
